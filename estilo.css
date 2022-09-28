@@ -9,9 +9,6 @@
 
 body{
     background:url(https://assets.codepen.io/518746/Colored+Patterns.svg);
-
-  
-
 }
 
 main{
@@ -19,9 +16,8 @@ main{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    border: 1px solid black;
-    width:80%;
-    height: 900px;
+    width:70%;
+    height: 100vh;
     margin: 0 auto;
 }  
 
@@ -40,24 +36,22 @@ p{
     line-height: 1.5rem;
 }
 hr{
-    height: 2px;
+    height: 1px;
     width: 50px;
     background-color: darkviolet ;
     border: 3px solid darkviolet;
-    margin: 10px 0 50px 0;
+    margin: 50px 0 10px 0;
 }
-button{
-    text-transform: uppercase;
+
+.btn-primary{
+  text-transform: uppercase;
     background-color: hotpink;
     border-color: hotpink;
     color: white;
     border-radius: 50px;
-    padding: 10px;
+    padding: 20px;
     font-weight: 800;
     font-size: 1.3rem;
-}
-.btn-primary{
-
 }
 
 
